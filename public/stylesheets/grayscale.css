@@ -122,6 +122,7 @@
   }
 }
 
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -135,6 +136,14 @@
   .masthead h2 {
     max-width: 45rem;
     font-size: 1.25rem;
+  }
+}
+
+
+/* this makes the more about me button show up on the phone screen in the beginning */
+@media (max-width: 992px) {
+  .masthead  {
+    height: 105vh !important;
   }
 }
 

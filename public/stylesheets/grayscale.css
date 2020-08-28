@@ -300,3 +300,20 @@ footer {
 .iconbig{
   font-size: 2rem !important;
 }
+
+.workpadding{
+  padding: 20px;
+}
+
+/* resume-button has variations of d371c0 */
+#resume-button{
+  background-color: transparent;
+  border-style: solid;
+  display:inline;
+  border-radius: 10px;
+  border-color: #d371c0;
+  padding:5px;
+  height: 88px;
+  line-height: 88px;
+  visibility: hidden;
+}

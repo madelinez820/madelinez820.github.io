@@ -180,12 +180,23 @@
   padding: 5rem 0;
 }
 
+.work-section {
+  padding: 5rem 0;
+}
+
 .projects-section .featured-text {
+  padding: 2rem;
+}
+.work-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #d371c0;
+  }
+  .work-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #d371c0;
   }
@@ -196,11 +207,22 @@
   font-size: 90%;
 }
 
+.work-section .project-text {
+  font-size: 90%;
+}
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
   }
   .projects-section .project-text hr {
+    border-color: #d371c0;
+    border-width: .25rem;
+    width: 30%;
+  }
+  .work-section .project-text {
+  }
+  .work-section .project-text hr {
     border-color: #d371c0;
     border-width: .25rem;
     width: 30%;
@@ -302,7 +324,9 @@ footer {
 }
 
 .workpadding{
-  padding: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* resume-button has variations of d371c0 */
@@ -316,4 +340,31 @@ footer {
   height: 88px;
   line-height: 88px;
   visibility: hidden;
+}
+
+@media (min-width: 992px) {
+.work-title{
+  padding: 5rem
+}
+}
+
+@media (max-width: 992px) {
+  .work-title{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center !important;
+  }
+  }
+
+.circularimage{
+  border-radius: 100px;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+}
+.circularlogo{
+  border-radius: 100px;
+  height: 67px;
+  background-color:white;
+  padding: 3px;
+  margin-bottom: 20px;
 }

@@ -167,7 +167,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -177,7 +177,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -208,7 +208,7 @@
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
@@ -231,6 +231,7 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  background: linear-gradient(to top, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 .contact-section .card {
@@ -251,26 +252,19 @@
   width: 3rem;
 }
 
-.contact-section .social {
-  margin-top: 5rem;
-}
-
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  /* variant of color: #b875ab; */
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+   /* variant of color: #b875ab; */
+    color: #b474a7;
 }
 
 .contact-section .social a:active {
-  color: #fff;
+   /* variant of color: #b875ab; */
+   color: #97628c;
 }
 
 body {
@@ -301,4 +295,8 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.iconbig{
+  font-size: 2rem !important;
 }

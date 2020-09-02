@@ -143,7 +143,12 @@
 /* this makes the more about me button show up on the phone screen in the beginning */
 @media (max-width: 992px) {
   .masthead  {
-    height: 105vh !important;
+    height: 100vh;
+  }
+}
+@media (max-height: 600px) { /*for the iphone 5s */
+  .masthead  {
+    height: 110vh !important;
   }
 }
 

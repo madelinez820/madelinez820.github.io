@@ -111,7 +111,7 @@
 }
 
 .masthead h2 {
-  max-width: 20rem;
+  max-width: 35rem;
   font-size: 1rem;
 }
 
@@ -133,7 +133,7 @@
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
+    max-width: 45rem;
     font-size: 1.25rem;
   }
 }

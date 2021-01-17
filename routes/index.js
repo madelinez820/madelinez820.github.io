@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.sendFile('index.html', { root: 'views' });
 });
 
+/* GET insta linkinbio page */
+router.get('/links', function(req, res, next) {
+  res.sendFile('links.html', { root: 'views' });
+});
+
 module.exports = router;

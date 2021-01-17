@@ -1,0 +1,49 @@
+.insta-button{
+  border-radius: 1.5rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+  max-width: 90vw;
+  font-size: 90%;
+  white-space: normal;
+}
+
+.insta-button-shake {
+  border-radius: 1.5rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+  max-width: 90vw;
+  font-size: 90%;
+  white-space: normal;
+
+  animation: shake 7s cubic-bezier(.36, .07, .19, .97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
+}
+
+@keyframes shake {
+  1.25%,
+  11.25% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  2.5%,
+  10% {
+    transform: translate3d(2px, 0, 0);
+  }
+  3.75%,
+  6.25%,
+  8.75% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  5%,
+  7.5% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+#insta-footer{
+  font-size: 75%;
+}
+#insta-text{
+  margin-bottom: 1rem;
+}
